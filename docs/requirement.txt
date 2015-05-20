@@ -1,2 +1,2 @@
-sphinxcontrib-jsdemo
-sphinxcontrib-images
+sphinxcontrib.jsdemo
+sphinxcontrib.images
