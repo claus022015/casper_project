@@ -1,0 +1,20 @@
+.. new_level_1a:
+..index:: new_level_1a
+
+====================
+Page at New Level 1a
+====================
+
+Homeopathic Remedies
+
+   .. thumbnail:: /home/nutriben/virtualenvs/sphinx/casper++/_images/homeopathic_.png
+
+Nobel_Prize_Winners
+
+   .. thumbnail:: /home/nutriben/virtualenvs/sphinx/casper++/_images/nobel-prize_.png
+
+
+Volkswagen
+
+   .. thumbnail:: /home/nutriben/virtualenvs/sphinx/casper++/_images/volkswagen_.png
+====================

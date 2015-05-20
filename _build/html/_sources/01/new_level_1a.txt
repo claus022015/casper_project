@@ -1,0 +1,25 @@
+.. new_level_1a:
+..index:: new_level_1a
+
+====================
+Page at New Level 1a
+====================
+
+Homeopathic Remedies
+
+   .. thumbnail:: homeopathic_.png
+
+Nobel_Prize_Winners
+
+   .. thumbnail:: nobel-prize_.png
+
+
+Volkswagen
+
+   .. thumbnail:: volkswagen_.png
+
+:ref:`Return to top <new_level_1a>`
+
+----
+
+Page navigation

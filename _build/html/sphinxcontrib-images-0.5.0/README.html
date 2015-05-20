@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>sphinxcontrib-images &mdash; USDA Nutrition Database 1.1.0-DEV documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/jsdemo.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.1.0-DEV',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/jsdemo.js"></script>
+    <script type="text/javascript" src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    <link rel="shortcut icon" href="../_static/casperjs-favicon.ico"/>
+    <link rel="top" title="USDA Nutrition Database 1.1.0-DEV documentation" href="../index.html" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic&amp;subset=latin,latin-ext">
+    <link rel="stylesheet" title="Dark theme" href="../_static/casperjs-dark.css">
+    <link rel="alternate stylesheet" title="Light theme" href="../_static/casperjs-light.css">
+    <script type="text/javascript" src="../_static/style-switcher.js"></script>
+
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">USDA Nutrition Database 1.1.0-DEV documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="sphinxcontrib-images">
+<h1>sphinxcontrib-images<a class="headerlink" href="#sphinxcontrib-images" title="Permalink to this headline">¶</a></h1>
+<p>sphinxcontrib-images (formerly <a class="reference external" href="https://pypi.python.org/pypi/sphinxcontrib-fancybox">sphinxcontrib-fancybox</a>).</p>
+<ul>
+<li><p class="first"><a class="reference external" href="https://pythonhosted.org/sphinxcontrib-images">Documentation</a>,</p>
+</li>
+<li><p class="first"><a class="reference external" href="https://github.com/spinus/sphinxcontrib-images/">Repository (GitHub)</a>,</p>
+</li>
+<li><p class="first"><a class="reference external" href="https://pypi.python.org/pypi/sphinxcontrib-images/">PyPI</a>.</p>
+</li>
+<li><p class="first">TravisCI</p>
+<a class="reference external image-reference" href="https://travis-ci.org/spinus/sphinxcontrib-images"><img alt="https://travis-ci.org/spinus/sphinxcontrib-images.svg?branch=master" src="https://travis-ci.org/spinus/sphinxcontrib-images.svg?branch=master" /></a>
+</li>
+</ul>
+<div class="section" id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Show thumbnails instead of full size images inside documentation.</li>
+<li>Ability to zoom/enlarge picture using LightBox2 (or any other backend)</li>
+<li>Ability to group pictures</li>
+<li>Download remote pictures (if requested)</li>
+</ul>
+<div class="section" id="todo">
+<h3>TODO<a class="headerlink" href="#todo" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Make proper thumbnails (scale down images)</li>
+<li>Make support for other formats (latex, epub, etc)</li>
+</ul>
+</div>
+</div>
+<div class="section" id="how-to-install">
+<h2>How to install?<a class="headerlink" href="#how-to-install" title="Permalink to this headline">¶</a></h2>
+<p>Instalation through pip:</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="nx">pip</span> <span class="nx">install</span> <span class="nx">sphinxcontrib</span><span class="o">-</span><span class="nx">images</span>
+</pre></div>
+</div>
+<p>or through the GitHub:</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="nx">pip</span> <span class="nx">install</span> <span class="nx">git</span><span class="o">+</span><span class="nx">https</span><span class="o">:</span><span class="c1">//github.com/spinus/sphinxcontrib-images</span>
+</pre></div>
+</div>
+<p>Next, you have to add extension to <code class="docutils literal"><span class="pre">conf.py</span></code> in your sphinx project.</p>
+<div class="highlight-javascript"><div class="highlight"><pre>extensions = [
+          …
+          &#39;sphinxcontrib.images&#39;,
+          …
+          ]
+</pre></div>
+</div>
+</div>
+<div class="section" id="how-to-use-it">
+<h2>How to use it?<a class="headerlink" href="#how-to-use-it" title="Permalink to this headline">¶</a></h2>
+<p>Example:</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="p">..</span> <span class="nx">thumbnail</span><span class="o">::</span> <span class="nx">picture</span><span class="p">.</span><span class="nx">png</span>
+</pre></div>
+</div>
+<p>You can also override default <code class="docutils literal"><span class="pre">image</span></code> directive provided by sphinx.
+Check the documentation for all configuration options.</p>
+</div>
+<div class="section" id="questions-and-suggestions">
+<h2>Questions and suggestions<a class="headerlink" href="#questions-and-suggestions" title="Permalink to this headline">¶</a></h2>
+<p>If you have any suggstions, patches, problems - please use
+<a class="reference external" href="https://github.com/spinus/sphinxcontrib-images/issues">GitHub Issues</a>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Document Outline</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">sphinxcontrib-images</a><ul>
+<li><a class="reference internal" href="#features">Features</a><ul>
+<li><a class="reference internal" href="#todo">TODO</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#how-to-install">How to install?</a></li>
+<li><a class="reference internal" href="#how-to-use-it">How to use it?</a></li>
+<li><a class="reference internal" href="#questions-and-suggestions">Questions and suggestions</a></li>
+</ul>
+</li>
+</ul>
+<h3>Index</h3>
+<p><a href="../genindex.html">Thesaurus</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/sphinxcontrib-images-0.5.0/README.txt"
+           rel="nofollow">Show Source</a></li>
+   
+  </ul>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">USDA Nutrition Database 1.1.0-DEV documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, Ontomatica.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>
