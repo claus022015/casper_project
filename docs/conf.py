@@ -16,7 +16,7 @@ from datetime import date
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.extlinks', 'sphinxcontrib.images', 'sphinxcontrib.jsdemo']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.extlinks', 'sphinxcontrib.jsdemo']
 
 extensions.append('sphinxcontrib.jsdemo')
 
