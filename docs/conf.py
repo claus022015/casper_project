@@ -43,6 +43,11 @@ source_encoding = 'utf-8'
 master_doc = 'index'
 
 # General information about the project.
+#project = u'CasperJS'
+#copyright = (u'2011-%d Nicolas Perriault and contributors. CasperJS logo by Jeremy Forveille'
+#             % date.today().year)
+html_show_copyright = False
+html_show_sphinx = False
 project = 'USDA Nutrition Database'
 copyright = '2015, Ontomatica'
 
