@@ -7,7 +7,14 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 
-from datetime import date
+import sys
+import os
+
+#from datetime import date
+
+sys.path.insert(0, os.path.abspath('.'))
+
+CURDIR = os.path.abspath(os.path.dirname(__file__))
 
 # -- General configuration -----------------------------------------------------
 
